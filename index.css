@@ -1,0 +1,45 @@
+@import url('https://fonts.google.com/specimen/Asar?query=Sorkin+Type#standard-styles');
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'MonteCarlo', cursive;
+    background: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+h3{
+    margin: 10px 0 20px;
+}
+.container{
+    width: 500px;
+}
+
+#textarea{
+    border: none;
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-family: inherit;
+    padding: 10px;
+    font-size: 16px;
+    border: thin gray;
+    margin: 0 0 20px;
+}
+.tag{
+    background-color: green;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 0 5px 10px 0;
+    display: inline-block;
+
+}
+.tag.highlight{
+    background-color: orange;
+}
